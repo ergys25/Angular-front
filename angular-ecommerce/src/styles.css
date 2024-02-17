@@ -145,7 +145,7 @@ aside.menu-sidebar.d-none.d-lg-block.clr {
  */
 
 .header-desktop {
-  background: #d65104;
+  background: #2d2929;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
@@ -261,11 +261,11 @@ input.au-input.au-input-xl {
 }
 
 .total {
-  background: #0f171f;
+  background: #2d2929;
   line-height: 43px;
   color: #fff;
   border-radius: 30px;
-  border: 1px solid #0da8e4;
+  border: 1px solid #da9621;
   float: left;
   margin-top: 7px;
   padding-left: 17px;
@@ -332,7 +332,7 @@ input.au-input.au-input-xl {
   left: 0;
   top: 0;
   bottom: 0;
-  background: #fff;
+  background: #2d2929;
   overflow-y: auto;
 }
 
@@ -381,7 +381,7 @@ input.au-input.au-input-xl {
 
 .navbar-sidebar .navbar-list li a {
   display: block;
-  color: #555;
+  color: #fff;
   font-size: 16px;
   padding: 5px 0;
 }
@@ -391,7 +391,7 @@ input.au-input.au-input-xl {
 }
 
 .navbar-sidebar .navbar-list li a:hover {
-  color: #0da8e4;
+  color: #da9621;
 }
 
 /* 
@@ -756,6 +756,17 @@ table.table.table-bordered th {
   background-color: #0da8e4 !important;
   border-color: #0da8e4 !important;
 }
+.btn-dark {
+  color: #fff;
+  background-color: #2d2929 !important;
+  border-color: #da9621 !important;
+}
+.btn-dark:hover {
+  color: #fff;
+  background-color: #da9621 !important;
+  border-color: #2d2929 !important;
+}
+
 a.primary-btn {
   background: #05143f;
   padding: 7px 20px;
@@ -784,8 +795,12 @@ a.primary-btn:hover {
 footer ul li a {
   color: #fff;
 }
+
+footer ul li a:hover {
+  color: #da9621;
+}
 footer {
-  background: #232324;
+  background: #2d2929;
   z-index: 1;
   position: relative;
   text-align: center;
@@ -1032,17 +1047,17 @@ footer ul li {
     display: inline-block;
     background: #fff;
     padding: 0 10px;
-    color: #000;
+    color: #2d2929;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-left: 6px;
   }
   .total {
-    background: #1a2e3f;
+    background: #2d2929;
     line-height: 30px;
     color: #fff;
     border-radius: 30px;
-    border: 1px solid #205b8d;
+    border: 1px solid #da9621;
     float: left;
     margin-top: 9px;
     padding-left: 12px;
